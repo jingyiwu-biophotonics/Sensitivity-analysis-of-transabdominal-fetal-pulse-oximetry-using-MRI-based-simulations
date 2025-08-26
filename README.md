@@ -69,8 +69,6 @@ If you use this code or data, please cite our paper:
 - Code: MIT License (see `LICENSE`).  
 - Data: CC BY 4.0.
 
---- 
-
 ## Contact
 
 For questions, please contact: **Jingyi Wu** (jingyiwu@andrew.cmu.edu).
