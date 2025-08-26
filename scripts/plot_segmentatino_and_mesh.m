@@ -13,18 +13,17 @@
 %   - CGAL mesh generator (https://doc.cgal.org/latest/Mesh_3/index.html)
 %   - brewermap (for colormaps)
 %
-% Author: Jingyi Wu (2025)
+% Author: Jingyi Wu (2024)
 
 clear
 close all
 
+addpath(genpath('../data'));
+addpath('../utils');
+
 %% Add toolbox
 % iso2mesh is required for mesh visualization
 % https://www.mathworks.com/matlabcentral/fileexchange/68258-iso2mesh
-
-%% Add path
-addpath('utils/');
-addpath(genpath('data/'));
 
 %% Show the full segmentation volume
 % Full segmented volume derived from MRI scan.
@@ -81,7 +80,7 @@ lgd.Box = "off";
 axis equal square
 set(gca,'FontWeight','bold','FontSize',15,'LineWidth',1.1,'FontName','Arial');
 
-%% Export mesh for NIRFAST
+%% Using mesh in NIRFAST
 % To use this mesh (or other generated meshes) in NIRFAST:
 %   - Use the load_mesh function, which reads all .elem, .link, .meas,
 %     .node, .param, .region, and .source files.

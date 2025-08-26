@@ -12,10 +12,13 @@
 %   - fit_one_term_exponential.m (utility function)
 %   - Pre-generated mesh_info.mat and example_fluence_data.mat
 %
-% Author: Jingyi Wu (2025)
+% Author: Jingyi Wu (2024)
 
 clear
 close all
+
+addpath(genpath('../data'));
+addpath('../utils');
 
 %% Load mesh information
 load('mesh_info/mesh_info.mat');
@@ -29,7 +32,7 @@ num_wl = length(wavelengths);
 
 %% Load simulated fluence data
 % Fluence data has two states: diastole (1) and systole (2)
-load('example_fluence_data.mat');
+load('fluence_data.mat');
 Phi_all = fluence_data.fluence_big_det;
 Phi_dia = squeeze(Phi_all(:,:,1));   % diastolic fluence
 Phi_sys = squeeze(Phi_all(:,:,2));   % systolic fluence

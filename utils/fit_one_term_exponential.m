@@ -26,7 +26,7 @@ function [a, b] = fit_one_term_exponential(x, y, plt_fig)
 %       y = 5*exp(-0.3*x) + 0.1*randn(size(x));
 %       [a, b] = fit_one_term_exponential(x, y, 1);
 %
-%   Author: Jingyi Wu (2025)
+%   Author: Jingyi Wu (2024)
 
     % Define and perform exponential fit
     ft = fittype('exp1');
