@@ -1,7 +1,7 @@
 # Sensitivity Analysis of Transabdominal Fetal Pulse Oximetry Using MRI-Based Simulations
 
 This repository contains example MATLAB code and data accompanying the paper:  
-**“Sensitivity analysis of transabdominal fetal pulse oximetry using MRI-based simulations.”**  
+[**“Sensitivity analysis of transabdominal fetal pulse oximetry using MRI-based simulations.”**](https://doi.org/10.1364/BOE.531149)  
 
 It provides two main scripts for visualization and simulation of optical signals from MRI-derived tissue segmentations.
 
