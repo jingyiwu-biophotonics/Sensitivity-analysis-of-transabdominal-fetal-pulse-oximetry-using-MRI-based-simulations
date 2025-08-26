@@ -47,27 +47,14 @@ scripts/plot_segment_and_mesh
 scripts/add_noise_and_plot_dod
 ```
 
-## Citation
-
-If you use this code or data, please cite our paper:
-
-```bibtex
-@article{Wu2024,
-  title   = {Sensitivity analysis of transabdominal fetal pulse oximetry using MRI-based simulations},
-  author  = {Wu, Jingyi and Satish, Gopika and Ruesch, Alexander and Jayet, Baptiste and Komolibus, Katarzyna and Andersson-Engels, Stefan and Debreczeny, Martin P. and Kainerstorfer, Jana M.},
-  journal = {Biomedical Optics Express},
-  year    = {2024},
-  volume  = {15},
-  number  = {9},
-  pages   = {5280--5295},
-  doi     = {10.1364/BOE.531149}
-}
-```
-
 ## License
 
-- Code: MIT License (see `LICENSE`).  
-- Data: CC BY 4.0.
+- Code: MIT License (see `LICENSE`)  
+- Demo data: Creative Commons Attribution 4.0 (same as the journal publication)  
+
+If you use the demo code or data, please maintain attribution to the author(s), article title, journal citation, and DOI:  
+[Wu et al., Biomedical Optics Express, 2024, DOI:10.1364/BOE.531149](https://doi.org/10.1364/BOE.531149).
+
 
 ## Contact
 
