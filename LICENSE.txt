@@ -1,4 +1,4 @@
-MIT License
+MIT License (for code)
 
 Copyright (c) 2024 Jingyi Wu
 
@@ -19,3 +19,24 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
+
+
+Creative Commons Attribution 4.0 International (for demo data)
+
+The demo dataset included in the `data/` folder is distributed under the terms 
+of the Creative Commons Attribution 4.0 International License (CC BY 4.0).
+
+You are free to:
+- Share — copy and redistribute the material in any medium or format
+- Adapt — remix, transform, and build upon the material for any purpose, even commercially.
+
+Under the following terms:
+- Attribution — You must give appropriate credit, provide a link to the license, 
+  and indicate if changes were made. Attribution must include reference to the 
+  author(s), article title, journal citation, and DOI.
+
+Full license text: https://creativecommons.org/licenses/by/4.0/
+
+Citation for demo data:
+Wu et al., *Biomedical Optics Express*, Vol. 15, Issue 9, pp. 5280–5295 (2024).  
+DOI: 10.1364/BOE.531149
